@@ -11,19 +11,19 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'lineage-22.1'
+        default: 'lineage-21.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/leefshitz2/android_device_xiaomi_mido_android_go.git'
+        default: 'https://github.com/LineageOS/android_device_oneplus_billie2'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'lineage-22.1'
+        default: 'lineage-21'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/mido'
+        default: 'device/oneplus/billie2'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -33,11 +33,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'mido'
+        default: 'billie2'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'lineage_mido'
+        default: 'lineage_billie2'
 
 jobs:
   build-lineageos:
